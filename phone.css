@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    box-sizing:border-box;
+}
+
+:root{
+    --navbar-heght:120px
+}
+/* navbar-section */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1.2rem;
+    padding: 3px 12px;
+    margin: 0px 14px;
+    border-radius: 14px;
+}
+#navbar::before{
+    height: 135px;
+}
+#logo img{
+    filter: invert(100%);
+    height: 70px;
+    width: 70px;
+    padding:2px;
+    margin: 2px;
+}
+/* home-section */
+#home{
+    color: white;
+    padding: 85px 0px;
+    margin: 50px;
+}
+/* destination-setion */
+/* contact-section */
+#contact-box form{
+    width: 80%;
+}
+#contact-box label{
+    font-size: 1rem;
+}
+/* footer-section */
+footer {
+    font-size: 0.8rem;
+}
+/* utility-section */
+.h-primary{
+    font-size: 1.3rem;
+}
+.h-secondary{
+    font-size: 1rem;
+}
